@@ -1,8 +1,8 @@
 import FeatureCard from '../components/FeatureCard';
 import Header from '../components/Header';
-import './homepage.css'; 
+import './homepage.css';
 
-function Homepage() {
+const Homepage = () => {
   return (
     <>
       <Header />
@@ -34,6 +34,6 @@ function Homepage() {
       </main>
     </>
   );
-}
+};
 
 export default Homepage;
