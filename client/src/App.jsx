@@ -5,7 +5,7 @@ import SignUp from './pages/Signup';
 //import { useEffect, useState } from 'react';
 //import axios from 'axios';
 import InternDashboard from './pages/interndashboard';
-import SeatBookingPage from './pages/Seatbooking';
+
 import AddSeatsPage from './pages/Addseat';
 import AdminDashboard from './pages/admindashboard';
 
@@ -17,7 +17,7 @@ function App() {
       <Route path="/signup" element={<SignUp />} />
       <Route path="/interndashboard" element={<InternDashboard />} />
       <Route path="/admindashboard" element={<AdminDashboard/>}/>
-      <Route path="/seatbooking" element={<SeatBookingPage/>}/>
+      
       <Route path="/addseats" element={<AddSeatsPage/>}/>
     </Routes>
   );
