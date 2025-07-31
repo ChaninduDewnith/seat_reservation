@@ -7,7 +7,7 @@ import SignUp from './pages/Signup';
 import InternDashboard from './pages/interndashboard';
 
 
-import AdminDashboard from './pages/admindashboard';
+
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <Route path="/login" element={<LoginPage />} />
       <Route path="/signup" element={<SignUp />} />
       <Route path="/interndashboard" element={<InternDashboard />} />
-      <Route path="/admindashboard" element={<AdminDashboard/>}/>
+      
       
       
     </Routes>
