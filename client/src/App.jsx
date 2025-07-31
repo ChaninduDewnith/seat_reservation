@@ -6,7 +6,7 @@ import SignUp from './pages/Signup';
 //import axios from 'axios';
 import InternDashboard from './pages/interndashboard';
 
-import AddSeatsPage from './pages/Addseat';
+
 import AdminDashboard from './pages/admindashboard';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
       <Route path="/interndashboard" element={<InternDashboard />} />
       <Route path="/admindashboard" element={<AdminDashboard/>}/>
       
-      <Route path="/addseats" element={<AddSeatsPage/>}/>
+      
     </Routes>
   );
 }
